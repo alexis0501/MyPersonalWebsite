@@ -20,6 +20,7 @@ function Home() {
         </div>
 
         <img src={img} alt='profile pic' />
+        <span className='click-me'>Click Me</span>
       </div>
 
       <a href='#footer' className='scroll-down'>

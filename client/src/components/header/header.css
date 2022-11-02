@@ -34,7 +34,7 @@
 }
 
 .header-container h3 span {
-  animation: color-change 5s infinite;
+  animation: color-change 3s infinite;
 }
 
 @keyframes color-change {

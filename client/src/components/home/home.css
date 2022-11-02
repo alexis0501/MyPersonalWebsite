@@ -48,7 +48,7 @@
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-color: rgb(4, 4, 44);
+  background-color: rgb(4, 44, 44);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,14 +122,11 @@
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  border: 4px solid rgb(70, 25, 168);
+  border: 4px solid rgb(173, 67, 255);
   transform: translate(-200px);
   opacity: 0;
   animation: fade-in 1s ease 1 0.5s forwards;
 }
-
-
-
 
 @keyframes fade-in {
   to {
@@ -455,4 +452,8 @@
     font-weight: 100;
     font-family: "Open Sans", sans-serif;
   }
+}
+
+.click-me{
+  color: rgb(193, 160, 255);
 }
