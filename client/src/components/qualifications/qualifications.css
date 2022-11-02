@@ -175,6 +175,13 @@
   background-size: 68px;
 }
 
+.qualifications-container .qualification .content.git{
+  background: rgba(255, 255, 255, 0.103) url(../props/gitLogo.png);
+  background-position: center;
+  background-size: cover;
+  background-size: 68px;
+}
+
 @media (max-width: 820px) {
   .quali-text {
     font-size: 30px;

@@ -5,7 +5,6 @@ const handleAlert = () =>{
   alert("Hold shift and use mousewheel to scroll left/right 🙂")
 }
 
-
 const Qualifications = () => {
   return (
     <div>
@@ -32,7 +31,6 @@ const Qualifications = () => {
           <div className="content java"></div>
           <h1>Java</h1>
         </div>
-
         <div className="qualification">
           <div className="content bootstrap"></div>
           <h1>bootstrap</h1>
@@ -86,6 +84,10 @@ const Qualifications = () => {
         <div className="qualification">
           <div className="content github"></div>
           <h1>github</h1>
+        </div>
+        <div className="qualification">
+          <div className="content git"></div>
+          <h1>git</h1>
         </div>
 
       </div>
