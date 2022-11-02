@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  z-index: 1;
+}
+
+body {
+  background: rgb(7, 9, 28);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  animation: move 1s linear infinite forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  filter: blur(140px);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 200px;
+  left: 250px;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(-45deg, #6bb9fd, #1dd2ff, #736fff, #9372ff);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  filter: blur(140px);
+}
+
+.bg-circle1 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(90deg, #4e9cf5, #6d82fd, #a247fc,#dc51ff);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  filter: blur(140px);
+}
+
+.bg-circle2 {
+  position: fixed;
+  bottom: 100px;
+  right: 250px;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(-45deg, #44a3f7, #aa53fb, #da43f5, #fa80d6);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  filter: blur(150px);
+}
+
+.bg-circle3 {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(-45deg, #2697fa, #3967ff, #5e53f6, #5329ff);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  filter: blur(150px);
+}
+
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+:root {
+  --color-pri: rgb(169, 47, 255);
+  --color-pri-light: rgba(174, 0, 255, 0.445);
+  --color-sec: rgb(0, 170, 255);
+  --color-sec-light: rgba(238, 0, 147, 0.934);
+
+  --pc-width: 75%;
+  --tab-width: 90%;
+  --phone-width: 100%;
+}
+
+.container {
+  border-radius: 10px;
+  width: var(--pc-width);
+  color: var(--text-pri);
+  padding: 10px 40px;
+  margin: 5px auto;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: var(--phone-width);
+  }
+}
