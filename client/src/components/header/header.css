@@ -33,15 +33,19 @@
   font-size: 15px;
 }
 
-.header-container h3 p span {
-  color: var(--color-pri);
-  font-size: 20px;
+.header-container h3 span {
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: blue; }
+  50% { color: rebeccapurple; }
+  100% { color: blue; }
 }
 
 .header-container h2 {
   font-size: 16px;
   font-weight: 100;
-  color: var(--color-pri);
   font-family: "Open Sans";
-  letter-spacing: 1px;
+  letter-spacing: 5px;
 }
