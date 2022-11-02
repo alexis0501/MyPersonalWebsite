@@ -1,7 +1,8 @@
 import "./contact.css";
 import {GoMail} from "react-icons/go"
-import { AiOutlineWhatsApp } from "react-icons/ai";
+// import { AiOutlineWhatsApp } from "react-icons/ai";
 import {AiFillLinkedin} from "react-icons/ai"
+import {GoMarkGithub} from "react-icons/go"
 
 function Contact() {
   return (
@@ -19,13 +20,13 @@ function Contact() {
           </h2>
         </a>
 
-        <div
-          className="contact whatsapp"
-        >
-          <AiOutlineWhatsApp className="icon" />
+        <div className="contact whatsapp">
+          <a href="https://github.com/alexis0501" target={"blank"}>
+          <GoMarkGithub className="icon" />
           <h2>
-            Phone Number <span>657 282 7838</span>
+            Github <span>My Profile</span>
           </h2>
+          </a>
         </div>
 
         <div href="#" className="contact instagram">

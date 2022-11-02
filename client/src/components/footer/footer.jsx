@@ -2,6 +2,7 @@ import "./footer.css";
 import { BsMouse } from "react-icons/bs";
 import {GoMarkGithub} from "react-icons/go"
 import {AiFillLinkedin} from "react-icons/ai"
+
 function Footer() {
   return (
     <div id="footer" className="container footer-container">

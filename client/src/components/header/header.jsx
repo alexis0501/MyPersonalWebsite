@@ -5,7 +5,7 @@ function Header() {
     <div id='home' className='container header-container'>
       <h3>
         <p>
-          I<span>'</span>m
+          I'm
         </p>
         Alexis Mayoral
       </h3>

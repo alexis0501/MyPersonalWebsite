@@ -8,7 +8,8 @@ const handleAlert = () =>{
 const Qualifications = () => {
   return (
     <div>
-      <span className="quali-text">My Qualifications <button onClick={handleAlert} className="qual-btn"><AiOutlineArrowRight/></button> </span>
+      <span className="quali-text">My Qualifications <button onClick={handleAlert} className="qual-btn"><AiOutlineArrowRight/> click</button> </span>
+      
       <div className="qualifications-container">
   
         <div className="qualification">
