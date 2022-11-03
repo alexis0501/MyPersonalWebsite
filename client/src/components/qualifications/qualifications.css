@@ -145,7 +145,7 @@
   background-size: 68px;
 }
 .qualifications-container .qualification .content.sqlworkbench {
-  background: rgba(255, 255, 255, 0.103) url(../props/SqlWorkbench.jpg);
+  background: rgba(255, 255, 255, 0.103) url(../props/MySqlWorkbenchLogo.jpg);
   background-position: center;
   background-size: cover;
   background-size: 68px;
@@ -176,7 +176,7 @@
 }
 
 .qualifications-container .qualification .content.git{
-  background: rgba(255, 255, 255, 0.103) url(../props/gitLogo.png);
+  background: rgba(255, 255, 255, 0.103) url(../props/gitLogo.jpg);
   background-position: center;
   background-size: cover;
   background-size: 68px;
