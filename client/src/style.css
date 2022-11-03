@@ -50,19 +50,19 @@ body::after {
   width: 200px;
   background: linear-gradient(90deg, #4e9cf5, #6d82fd, #a247fc,#dc51ff);
   background-size: 400% 400%;
-  animation: gradient 7s ease infinite;
+  animation: gradient 4s ease infinite;
   filter: blur(140px);
 }
 
 .bg-circle2 {
   position: fixed;
-  bottom: 100px;
-  right: 250px;
+  bottom: 40px;
+  right: 150px;
   height: 200px;
   width: 200px;
   background: linear-gradient(-45deg, #44a3f7, #aa53fb, #da43f5, #fa80d6);
   background-size: 400% 400%;
-  animation: gradient 7s ease infinite;
+  animation: gradient 8s ease infinite;
   filter: blur(150px);
 }
 
@@ -74,7 +74,7 @@ body::after {
   width: 200px;
   background: linear-gradient(-45deg, #2697fa, #3967ff, #5e53f6, #5329ff);
   background-size: 400% 400%;
-  animation: gradient 7s ease infinite;
+  animation: gradient 8s ease infinite;
   filter: blur(150px);
 }
 
