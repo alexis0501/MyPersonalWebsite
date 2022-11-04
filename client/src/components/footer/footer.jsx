@@ -16,11 +16,12 @@ function Footer() {
       </h1>
       <div className="social-links">
         {/* Github */}
-        <a href="https://github.com/alexis0501" target="_blank">
+        <a href="https://github.com/alexis0501" rel="noreferrer" target="_blank">
           <GoMarkGithub className="social" />
         </a>
-        <a href="https://www.linkedin.com/in/alexis-mayoral-27b186239/" target="_blank">
+        <a href="https://www.linkedin.com/in/alexis-mayoral-27b186239/" rel="noreferrer" target="_blank">
           <AiFillLinkedin className="social"/>
+          
         </a>
       </div>
     </div>
