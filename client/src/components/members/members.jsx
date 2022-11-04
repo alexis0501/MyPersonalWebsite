@@ -18,8 +18,8 @@ const Members = () => {
               Languages & Tools: JavaScript, Bootstrap, React, NodeJS, MongoDB, Mongoose, Postman, VsCode & Git.
           </h4>
           {/* Going to add link to the website  */}
-          <a href="#contact" className="contact-member">
-            <span>contact</span>
+          <a href="https://github.com/alexis0501/MyMERNProject" rel="noreferrer" className="contact-member" target={"_blank"}>
+            <span>View Code</span>
           </a>
         </div>
       </div>
@@ -37,8 +37,8 @@ const Members = () => {
             Languages & Tools: Java 8, Git, Spring Tool Suite, Bootstrap, MySQL, Bcrypt & Session.
           </h4>
           {/* Going to add link to the website */}
-          <a href="#contact" className="contact-member">
-            <span>contact</span>
+          <a href="https://github.com/alexis0501/Java-Project" rel="noreferrer" target={"_blank"} className="contact-member">
+            <span>View Code</span>
           </a>
         </div>
       </div>
@@ -55,8 +55,8 @@ const Members = () => {
             <br />
             Languages & Tools: Python, Bcrypt, Jinja, Flask, Flash, Mysql, Git, & Bootstrap.
           </h4>
-          <a href="#contact" className="contact-member">
-            <span>contact</span>
+          <a href="https://github.com/alexis0501/Python-Project" rel="noreferrer" target={"_blank"} className="contact-member">
+            <span>View Code</span>
           </a>
         </div>
       </div>
