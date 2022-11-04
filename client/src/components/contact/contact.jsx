@@ -30,10 +30,12 @@ function Contact() {
         </div>
 
         <div href="#" className="contact instagram">
+          <a href="mailto: alexismayoral0501@gmail.com">
           <GoMail className="icon" />
           <h2>
-            Gmail <span>alexismayoral0501@gmail.com</span>
+            Gmail <span>alexismayoral0501@gmail</span>
           </h2>
+          </a>
         </div>
       </div>
     </div>
