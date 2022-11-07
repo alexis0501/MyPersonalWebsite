@@ -14,7 +14,13 @@
   font-size: 22px;
   font-family: 'Open Sans Condensed';
   font-weight: 400;
-  color: var(--color-pri);
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% { color: blue; }
+  50% { color: rebeccapurple; }
+  100% { color: blue; }
 }
 
 .contact-container .contact-links {
