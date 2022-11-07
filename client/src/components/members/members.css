@@ -26,11 +26,40 @@
   padding: 20px;
   border-radius: 50px;
 }
-.members-container .member .member-img {
+/* .members-container .member .member-img {
   height: 300px;
   width: 300px;
   border-radius: 40px;
-  background: rgb(5, 7, 37) url(../props/img3.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid blue;
+} */
+
+.members-container .member .mem1{
+  background: rgb(5, 7, 37) url(../props/JavascriptProjectIcon.JPEG);
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid blue;
+}
+
+.members-container .member .mem2{
+  background: rgb(5, 7, 37) url(../props/JavaProjectIcon.JPEG);
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid blue;
+}
+
+.members-container .member .mem3{
+  background: rgb(5, 7, 37) url(../props/PythonProjectIcon.JPEG);
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
   background-size: cover;
   background-position: center;
   border: 2px solid blue;
@@ -107,7 +136,7 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  /* .members-container .member .member-img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -115,6 +144,36 @@
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+  } */
+
+  .members-container .member .mem1{
+    background: rgb(5, 7, 37) url(../props/JavascriptProjectIcon.JPEG);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem2{
+    background: rgb(5, 7, 37) url(../props/JavaProjectIcon.JPEG);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem3{
+    background: rgb(5, 7, 37) url(../props/PythonProjectIcon.JPEG);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
   }
 
   .members-container .member .member-info {
@@ -179,7 +238,7 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  /* .members-container .member .member-img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -187,6 +246,36 @@
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+  } */
+
+  .members-container .member .mem1{
+    background: rgb(5, 7, 37) url(../props/JavascriptProjectIcon.JPEG);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem2{
+    background: rgb(5, 7, 37) url(../props/JavaProjectIcon.JPEG);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem3{
+    background: rgb(5, 7, 37) url(../props/PythonProjectIcon.JPEG);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
   }
 
   .members-container .member .member-info {
@@ -217,12 +306,12 @@
   }
   .members-container .member .member-info a.contact-member {
     background-color: var(--color-sec-light);
-    padding: 15px 25px;
+    padding: 12px 20px;
     font-size: 15px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
-    top: -55px;
+    top: -10px;
     right: 10px;
   }
 }
@@ -251,7 +340,7 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  /* .members-container .member .member-img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -259,6 +348,36 @@
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+  } */
+
+  .members-container .member .mem1{
+    background: rgb(5, 7, 37) url(../props/JavascriptProjectIcon.JPEG);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem2{
+    background: rgb(5, 7, 37) url(../props/JavaProjectIcon.JPEG);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem3{
+    background: rgb(5, 7, 37) url(../props/PythonProjectIcon.JPEG);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
   }
 
   .members-container .member .member-info {
@@ -289,13 +408,13 @@
   }
   .members-container .member .member-info a.contact-member {
     background-color: var(--color-sec-light);
-    padding: 15px 25px;
+    padding: 12px 18px;
     font-size: 15px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
-    top: -55px;
-    right: 10px;
+    top: -5px;
+    right: 0px;
   }
 }
 
@@ -324,7 +443,7 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  /* .members-container .member .member-img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -332,6 +451,36 @@
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+  } */
+
+  .members-container .member .mem1{
+    background: rgb(5, 7, 37) url(../props/JavascriptProjectIcon.JPEG);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem2{
+    background: rgb(5, 7, 37) url(../props/JavaProjectIcon.JPEG);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem3{
+    background: rgb(5, 7, 37) url(../props/PythonProjectIcon.JPEG);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
   }
 
   .members-container .member .member-info {
@@ -362,13 +511,13 @@
   }
   .members-container .member .member-info a.contact-member {
     background-color: var(--color-sec-light);
-    padding: 15px 25px;
+    padding: 13px 20px;
     font-size: 15px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
-    top: 0px;
-    right: 10px;
+    top: -5px;
+    right: -15px;
   }
 }
 
@@ -397,7 +546,7 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  /* .members-container .member .member-img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -405,6 +554,36 @@
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+  } */
+
+  .members-container .member .mem1{
+    background: rgb(5, 7, 37) url(../props/JavascriptProjectIcon.JPEG);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem2{
+    background: rgb(5, 7, 37) url(../props/JavaProjectIcon.JPEG);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+  }
+  
+  .members-container .member .mem3{
+    background: rgb(5, 7, 37) url(../props/PythonProjectIcon.JPEG);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
   }
 
   .members-container .member .member-info {
@@ -435,12 +614,12 @@
   }
   .members-container .member .member-info a.contact-member {
     background-color: var(--color-sec-light);
-    padding: 15px 25px;
-    font-size: 15px;
+    padding: 10px 18px;
+    font-size: 13px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
-    top: 0px;
-    right: 55px;
+    top: -5px;
+    right: -10px;
   }
 }

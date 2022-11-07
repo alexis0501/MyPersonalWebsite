@@ -5,7 +5,7 @@ const Members = () => {
     <div id="members" className="container members-container">
       <h1 className="member-txt">Projects</h1>
       <div className="member member-1">
-        <div className="member-img"></div>
+        <div className="member-img mem1"></div>
         <div className="member-info">
           <h1 className="name">Car Wiki</h1>
           <h3 className="position">JavaScript</h3>
@@ -25,7 +25,7 @@ const Members = () => {
       </div>
 
       <div className="member member-2">
-        <div className="member-img"></div>
+        <div className="member-img mem2"></div>
         <div className="member-info">
           <h1 className="name">Blog Website</h1>
           <h3 className="position">Java</h3>
@@ -44,7 +44,7 @@ const Members = () => {
       </div>
 
       <div className="member member-3">
-        <div className="member-img"></div>
+        <div className="member-img mem3"></div>
         <div className="member-info">
           <h1 className="name">Student Tracker</h1>
           <h3 className="position">Python</h3>
