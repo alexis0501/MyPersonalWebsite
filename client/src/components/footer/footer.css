@@ -16,6 +16,13 @@
   margin: 0 auto;
   text-align: center;
   text-transform: capitalize;
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% { color: blue; }
+  50% { color: rebeccapurple; }
+  100% { color: blue; }
 }
 
 .container.footer-container h2 {
