@@ -96,7 +96,7 @@ body::after {
 }
 
 :root {
-  --color-pri: rgb(169, 47, 255);
+  --color-pri: rgb(173, 67, 255);
   --color-pri-light: rgba(174, 0, 255, 0.445);
   --color-sec: rgb(0, 170, 255);
   --color-sec-light: rgba(238, 0, 147, 0.934);
